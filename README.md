@@ -22,7 +22,7 @@ This project analyzes **150,000+ mobile money transactions** to identify fraud p
 
 ### 🛠️ Technical Workflow
 1.  **SQL:** Performed stratified sampling on the raw PaySim dataset (6M rows) to extract a statistically significant sample (150k rows) comprising all fraud vectors and a control group of legitimate transactions.
-2.  2.  **Python (Validation & Logic):** Used Pandas and Seaborn to perform statistical hypothesis testing (Correlation Matrices & Box Plots) which mathematically validated the "High-Value" risk theory. Developed a reusable `transaction_risk` function to serve as a prototype for a real-time blocking engine.
+2.  **Python (Validation & Logic):** Used Pandas and Seaborn to perform statistical hypothesis testing (Correlation Matrices & Box Plots) which mathematically validated the "High-Value" risk theory. Developed a reusable `transaction_risk` function to serve as a prototype for a real-time blocking engine.
 3.  **Power BI (DAX):** Created calculated columns and measures for to quantify the security gap and better analyse the data.
 4.  **Visualization:** Implemented a "Z-Pattern" layout for executive storytelling, utilizing Scatter Plots for correlation analysis and Combo Charts to track the velocity.
 
